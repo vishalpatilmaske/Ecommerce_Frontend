@@ -1,0 +1,130 @@
+.Navbar {
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  display: flex;
+  top: 0px;
+  align-items: center;
+  overflow: hidden;
+  z-index: 0;
+  margin: 0px;
+  justify-content: center;
+  box-shadow: 1px 1px 10px rgb(203, 203, 203);
+}
+
+.Navleft {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 30px;
+  gap: 15px;
+}
+
+.Navleft img {
+  width: 50px;
+  height: 47px;
+  border: 1.5px solid rgb(255, 162, 0);
+  border-radius: 50%;
+}
+
+.Navlink {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navlink .NavLinkList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.Navlink b {
+  cursor: pointer;
+  color: rgb(0, 0, 82);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Navlink b::before {
+  content: "";
+  width: 10px;
+  height: 3px;
+  position: absolute;
+  bottom: 20px;
+  background-color: rgb(255, 162, 0);
+  transition: 0.3s;
+}
+
+.Navlink .active b::before {
+  width: 55px;
+}
+
+.Navright {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 30px;
+  gap: 15px;
+}
+
+.Navright button {
+  width: 100px;
+  height: 50%;
+  outline: none;
+  border: 2px solid rgb(255, 162, 0);
+  border-radius: 30px;
+  background: transparent;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.Navright .logoutbtn {
+  display: none;
+}
+
+.Navright .active button {
+  background-color: rgb(255, 162, 0);
+}
+
+.Navright button:hover {
+  background-color: rgb(255, 162, 0);
+  color: rgb(0, 17, 125);
+}
+
+.Navright button:active {
+  font-size: 12.5px;
+}
+
+.Navbar i {
+  padding: 10px 12px;
+
+  border-radius: 50%;
+  margin: 4px;
+  font-size: 20px;
+}
+
+.Navbar i:hover {
+  background-color: rgb(255, 162, 0);
+  cursor: pointer;
+}
+
+.Navbar i:active {
+  background-color: rgb(236, 151, 3);
+}
+
+.Navbar .fa-cart-shopping {
+  padding: 10px 10px;
+}

@@ -1,0 +1,109 @@
+.About {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(25, 21, 44);
+  padding-top: 50px;
+}
+.About-Info {
+  width: 46%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.About-Info h3 {
+  margin: 20px 30px;
+  font-size: 25px;
+  color: orange;
+}
+.About-Info h5 {
+  margin-left: 30px;
+  margin-top: 8px;
+  color: rgb(164, 164, 164);
+}
+.Socialmedia-links {
+  width: 100%;
+  height: 50px;
+
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 50px;
+  gap: 20px;
+}
+.Socialmedia-links i {
+  font-size: 25px;
+  color: rgb(0, 187, 208);
+  cursor: pointer;
+}
+.Socialmedia-links i:hover {
+  color: rgb(0, 149, 165);
+}
+.Company-Info {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Contact-Info {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Company-Info {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.Company-Info h3 {
+  color: white;
+}
+
+.Company-Links {
+  margin-top: 20px;
+}
+
+.Company-Links h5 {
+  color: rgb(145, 145, 145);
+  margin: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.Contact-Info {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.Contact-Info h3 {
+  color: white;
+}
+
+.Contact-mail {
+  margin-top: 20px;
+}
+
+.Contact-mail h5 {
+  color: rgb(145, 145, 145);
+  margin-top: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
